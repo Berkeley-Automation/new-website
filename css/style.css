@@ -1,0 +1,47 @@
+#background {
+  margin: 10px;
+}
+
+.two-column {
+  column-gap: 10px;
+}
+.whited {
+  margin: 5px;
+} 
+#orange {
+  background: #FFA726;
+  height: 150px;
+}
+
+#blue {
+  background: #00B0FF;
+}
+
+#yellow {
+  background : #FFFF00;
+  height: 150px;
+}
+
+#dark-blue {
+  background: #0277BD;
+  height: 75px;
+}
+
+#purple {
+  background: #7E57C2;
+  height: 150px;
+}
+
+#dark-orange {
+  background: #FF6D00;
+  height: 75px;
+}
+
+#black {
+  background: #000000;
+  height: 75px;
+}
+
+#green {
+  background: #4CAF50;
+}
