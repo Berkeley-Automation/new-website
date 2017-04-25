@@ -8,7 +8,7 @@
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
 
       <link rel="stylesheet" href="css/style.css">
-      
+
   <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
 
   
@@ -22,42 +22,75 @@
     <div class="orange-blue col-md-4">
       <div class="row">
       <div id="orange" class="border col-md-6">
-        <h2> Who We Are </h2>
+        <h2> <a href="javascript:void(0)" onclick="toggle_visibility('popup-box1');">Who We Are</a> </h2>
+  
       </div>
       <div id="blue" class="border col-md-6">
-        <h2> What We Do </h2>
+        <h2> <a href="javascript:void(0)" onclick="toggle_visibility('popup-box2');"> What We Do  </a></h2>
         </div>
     </div>
         <div class="border" id="dark-orange">
-          <h2> Join Us </h2>
+          <h2 style="padding: 5%;"> Join Us </h2>
         </div>
       </div>
     <div class="col-md-5">
       <div class="border" id="yellow">
-      <h2> Portfolio </h2>
+      <h2 style="padding: 30%;"> Portfolio </h2>
       </div>
       <div class="row">
         <div id="black" class="border col-md-6">
           <p> Social Media Icons </p>
         </div>
         <div id="green" class="border col-md-6">
-          <h2> Social </h2>
+          <h2 style="padding: 5%;"> Social </h2>
         </div>
       </div>
            
     </div>
     <div class="col-md-3">
       <div class="border" id="dark-blue">
-        <h2> Our Vision </h2>
+        <h2 style="padding: 8%;"> Our Vision </h2>
     </div>
       <div class="border" id="purple">
-        <h2> Contact Us </h2>
+        <h2 style="padding: 25%;"> Contact Us </h2>
       </div>
         
+    </div> <!-- close container -->
   </div>
 </div>
-</div>
+
+<!-- Who We Are Popup Box -->
+<div id="popup-box1" class="popup-position">
+  <div class="popup-wrapper">
+    <div class="popup-container">
+    <div id="who-header">
+    <h3> Who We Are </h3>
+    <a> <img class="x" src="img/exit.png" height="40" width="40" href="javascript:void(0)" onclick="toggle_visibility('popup-box1');"> </a>
+    </div>
+    <div id="who-description"> We are a group of UC Berkeley students with a passion for technology and helping others. Majoring in fields like computer science, statistics, business, and pre-med, we have diverse interests and a wide range of expertise. Our interests include finding creative solutions to challenging problems and providing technological innovation to campus organizations. </div>
+    </div> <!-- popup container close -->
+  </div><!-- popup-wrapper close -->
+
+</div> <!-- Close popup box1 -->
+
+<div id="popup-box2" class="popup-position">
+  <div class="popup-wrapper">
+    <div id="box2" class="popup-container">
+    <div id="what-header">
+    <h3> What We Do </h3>
+    <img class="x" src="img/exit.png" height="40" width="40" href="javascript:void(0)" onclick="toggle_visibility('popup-box2');"> 
+    </div>
+    <div id="what-description"> We aim to build apps and services for these groups to help make their processes more efficient, and we provide support to help groups operate effectively and resolve issues by providing resources and tailored suggestions.</div>
   
+    </div> <!-- popup container close -->
+  </div><!-- popup-wrapper close -->
+
+</div> <!-- Close popup box2 -->
+
+
+
+  
+<script type="text/javascript" src="js/index.js"></script>
   
 </body>
 </html>
