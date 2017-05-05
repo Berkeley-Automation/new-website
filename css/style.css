@@ -12,10 +12,17 @@ h2 {
 a {
   color: #FFFFFF;
 }
-#background {
+
+header {
+  background: #000000;
+  padding: 20px 100px 20px 100px;
+}
+
+.background {
   padding: 50px 100px 50px 100px;
   
 }
+
 
 .border {
   border-style: solid;
@@ -121,3 +128,31 @@ a {
   margin: 8%;
   color: #00B0FF;
 }
+
+#contact-header {
+  color: #FFFFFF;
+  background-color: #7E57C2;
+  margin: 0px;
+  height: 30%;
+  padding: 0px;
+}
+
+#contact-description {
+  margin: 4%;
+  color: #7E57C2;
+  font-size: 24px;
+}
+
+#vision-header {
+  color: #FFFFFF;
+  background-color: #0277BD;
+  margin: 0px;
+  height: 30%;
+  padding: 0px;
+}
+
+#vision-description {
+  margin: 8%;
+  color: #0277BD;
+}
+
