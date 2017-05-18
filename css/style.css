@@ -33,6 +33,11 @@ header {
 
 .x {
   float: right;
+  position: absolute;
+  top: 0px;
+  right: 0px; 
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
 #orange {
@@ -92,13 +97,19 @@ header {
   margin: auto;
   padding: 100px;
   text-align: left;
+  position: relative;
 }
 
 .popup-container {
   background-color: #FFFFFF;
-  padding: 20px;
+  /*padding: 20px; */
   border-radius: 4px;
   height: 50vh;
+  position: relative;
+}
+
+.popup-header {
+  padding: 10px;
 }
 
 #who-header {
@@ -109,11 +120,13 @@ header {
   margin: 0px;
   height: 30%;
   padding: 0px;
+  padding-left: 8%;
+  padding-top: 5%;
 } 
 
 #who-description {
   margin: 4% 8% 4% 8%;
-  color: #FFA726;
+  color: #000000;
 }
 
 #what-header {
@@ -122,11 +135,13 @@ header {
   margin: 0px;
   height: 30%;
   padding: 0px;
+  padding-left: 8%;
+  padding-top: 5%;
 }
 
 #what-description {
   margin: 8%;
-  color: #00B0FF;
+  color: #000000;
 }
 
 #contact-header {
@@ -135,11 +150,13 @@ header {
   margin: 0px;
   height: 30%;
   padding: 0px;
+  padding-left: 8%;
+  padding-top: 5%;
 }
 
 #contact-description {
-  margin: 4%;
-  color: #7E57C2;
+  margin: 8%;
+  color: #000000;
   font-size: 24px;
 }
 
@@ -149,10 +166,12 @@ header {
   margin: 0px;
   height: 30%;
   padding: 0px;
+  padding-left: 8%;
+  padding-top: 5%;
 }
 
 #vision-description {
   margin: 8%;
-  color: #0277BD;
+  color: #000000;
 }
 
