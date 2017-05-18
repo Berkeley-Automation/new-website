@@ -1,47 +1,177 @@
-#background {
-  margin: 10px;
+body {
+  color: #FAFAFA;
+  background: #6dc066;
+  font-family: 'Roboto', sans-serif;;
 }
 
-.two-column {
-  column-gap: 10px;
+h2 {
+  text-align: center;
+  margin-top: 10px;
 }
-.whited {
-  margin: 5px;
-} 
+
+a {
+  color: #FFFFFF;
+}
+
+header {
+  background: #000000;
+  padding: 20px 100px 20px 100px;
+}
+
+.background {
+  padding: 50px 100px 50px 100px;
+  
+}
+
+
+.border {
+  border-style: solid;
+  border-color: #6dc066;
+  border-width: 5px;
+  /* border-radius: 15px; */
+}
+
+.x {
+  float: right;
+  position: absolute;
+  top: 0px;
+  right: 0px; 
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
 #orange {
   background: #FFA726;
-  height: 150px;
+  height: 60vh;
+  padding-top: 30%;
 }
 
 #blue {
   background: #00B0FF;
+  height: 60vh;
+  padding-top: 30%;
 }
 
 #yellow {
-  background : #FFFF00;
-  height: 150px;
+  background : #FFEB3B;
+  height: 60vh;
 }
 
 #dark-blue {
   background: #0277BD;
-  height: 75px;
+  height: 30vh;
 }
 
 #purple {
   background: #7E57C2;
-  height: 150px;
+  height: 45vh;
 }
 
 #dark-orange {
   background: #FF6D00;
-  height: 75px;
+  height: 15vh;
 }
 
 #black {
   background: #000000;
-  height: 75px;
+  height: 15vh;
 }
 
 #green {
-  background: #4CAF50;
+  background: #115a21;
+  height: 15vh;
 }
+
+.popup-position {
+  display: none; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+}
+
+.popup-wrapper {
+  width: 70%;
+  margin: auto;
+  padding: 100px;
+  text-align: left;
+  position: relative;
+}
+
+.popup-container {
+  background-color: #FFFFFF;
+  /*padding: 20px; */
+  border-radius: 4px;
+  height: 50vh;
+  position: relative;
+}
+
+.popup-header {
+  padding: 10px;
+}
+
+#who-header {
+  top: 0;
+  left: 0;
+  color: #FFFFFF;
+  background-color: #FFA726;
+  margin: 0px;
+  height: 30%;
+  padding: 0px;
+  padding-left: 8%;
+  padding-top: 5%;
+} 
+
+#who-description {
+  margin: 4% 8% 4% 8%;
+  color: #000000;
+}
+
+#what-header {
+  color: #FFFFFF;
+  background-color: #00B0FF;
+  margin: 0px;
+  height: 30%;
+  padding: 0px;
+  padding-left: 8%;
+  padding-top: 5%;
+}
+
+#what-description {
+  margin: 8%;
+  color: #000000;
+}
+
+#contact-header {
+  color: #FFFFFF;
+  background-color: #7E57C2;
+  margin: 0px;
+  height: 30%;
+  padding: 0px;
+  padding-left: 8%;
+  padding-top: 5%;
+}
+
+#contact-description {
+  margin: 8%;
+  color: #000000;
+  font-size: 24px;
+}
+
+#vision-header {
+  color: #FFFFFF;
+  background-color: #0277BD;
+  margin: 0px;
+  height: 30%;
+  padding: 0px;
+  padding-left: 8%;
+  padding-top: 5%;
+}
+
+#vision-description {
+  margin: 8%;
+  color: #000000;
+}
+
