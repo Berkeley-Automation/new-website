@@ -27,7 +27,7 @@ header {
 .border {
   border-style: solid;
   border-color: #000000;
-  border-width: 10px;
+  border-width: 5px;
   /* border-radius: 15px; */
 }
 
