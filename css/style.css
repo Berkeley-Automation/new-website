@@ -13,6 +13,10 @@ a {
   color: #FFFFFF;
 }
 
+a:hover {
+  color: white;
+}
+
 header {
   background: #000000;
   padding: 20px 100px 20px 100px;
