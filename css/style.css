@@ -64,11 +64,13 @@ header {
 #dark-blue {
   background: #0277BD;
   height: 30vh;
+  padding-top: 15%;
 }
 
 #purple {
-  background: #7E57C2;
+  background: #7B1FA2;
   height: 45vh;
+  padding-top: 35%;
 }
 
 #dark-orange {
@@ -77,12 +79,12 @@ header {
 }
 
 #red {
-  background: #BF360C;
+  background: #D81B60;
   height: 60vh;
 }
 
 #yellow {
-  background: #FFEB3B;
+  background: #FFCA28;
   height: 15vh;
 }
 
@@ -180,7 +182,7 @@ header {
 }
 
 #header-row {
-  background-color: #BF360C;
+  background-color: #D81B60;
   padding: 20px 100px 20px 100px; 
 
 }
